@@ -1,7 +1,10 @@
 $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 
 @import 'sass-bootstrap/lib/bootstrap';
-
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700);
+* {
+    font-family: 'Open Sans', sans-serif;  
+}
 .browsehappy {
     margin: 0.2em 0;
     background: #ccc;
@@ -15,6 +18,8 @@ body {
     padding-bottom: 20px;
 }
 
+
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
@@ -25,7 +30,18 @@ body {
 
 /* Custom page header */
 .header {
-    border-bottom: 1px solid #e5e5e5;
+
+    text-align: center;
+    height: 90px;
+
+    h1 {
+          font-family: 'Open Sans', sans-serif;
+          font-size: 48px;
+    }
+
+    h4 {
+          font-family: 'Open Sans', sans-serif;
+    }
 }
 
 /* Make the masthead heading the same height as the navigation */
@@ -51,6 +67,7 @@ body {
 .jumbotron {
     text-align: center;
     border-bottom: 1px solid #e5e5e5;
+    padding: 15px;
 }
 
 .jumbotron .btn {
@@ -70,7 +87,7 @@ body {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 730px;
+        max-width: 960px;
     }
 
     /* Remove the padding we set earlier */
@@ -89,3 +106,19 @@ body {
         border-bottom: 0;
     }
 }
+
+.portfolio-box {
+    display: inline-block;
+    height: 480px;
+    width: 480px;
+    border: 1px solid grey;
+    border-radius: 6px;
+    margin-right: 10px;
+
+}
+
+.mobber {
+    background: url('/images/mobber.png');
+    background-size: 480px 480px;
+}
+
