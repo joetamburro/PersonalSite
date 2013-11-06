@@ -35,12 +35,13 @@ body {
     height: 90px;
 
     h1 {
-          font-family: 'Open Sans', sans-serif;
-          font-size: 48px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 48px;
     }
 
     h4 {
-          font-family: 'Open Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        display: inline-block;
     }
 }
 
@@ -78,6 +79,7 @@ body {
 /* Supporting marketing content */
 .marketing {
     margin: 40px 0;
+    height: 500px;
 }
 
 .marketing p + h4 {
@@ -116,16 +118,10 @@ body {
     margin-right: 10px;
 
 }
-/*
-.mobber {
-    background: url('/images/mobber.png');
-    background-size: 780px 580px;
-}
 
-.wp {
-    background: url('/images/wp.png');
-    background-size: 780px 580px; 
-}*/
+#more {
+    display: inline-block;
+}
 
 #slides {
   display: none
