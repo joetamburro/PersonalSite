@@ -30,7 +30,7 @@ body {
 
 /* Custom page header */
 .header {
-
+    position: relative;
     text-align: center;
     height: 90px;
 
@@ -69,6 +69,7 @@ body {
     text-align: center;
     border-bottom: 1px solid #e5e5e5;
     padding: 15px;
+    margin-top: 60px;
 }
 
 .jumbotron .btn {
@@ -120,8 +121,30 @@ body {
 }
 
 #more {
-    display: inline-block;
+    display: block;
 }
+
+.circles{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.ben {
+    float: right;
+}
+
+.face {
+    position: absolute;
+    left: 0px;
+    top: -10px;
+    height: 125px;
+    width: 125px;
+}
+
+
+
+
 
 #slides {
   display: none
