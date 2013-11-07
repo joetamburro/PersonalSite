@@ -26,32 +26,62 @@
         <div class="container">
             <div class="header">
  
-                <img class="circles face" src="images/facey.jpg">
+                <!-- <img class="circles face" src="images/facey.jpg"> -->
                 <h1>Hi, I am Joe Tamburro.</h1>
                 <h4>Front-end Engineer. App Developer. Beard Wearer</h4>
                 <a href="#linktobio" id="more">Learn more</a>
+                  <a href="https://github.com/joetamburro"<button type="button" class="btn btn-primary btn-lg github">View on GitHub</button></a>
+
             </div>
    
-        
+   <!-- Place somewhere in the <body> of your page -->
+        <div class="flexslider">
+          <ul class="slides">
+            <li data-thumb="/images/mobber.png">
+              <img id="mobber"src="/images/mobber.png" />
+              <p>My first crack at coding. After our second lecture, I was handed an image and told to recreate it in the browser for homework. Using html/css, this was the outcome.</p>
+            </li>
+            <li id="flack-thumb" data-thumb="/images/flackaburro.png">
+              <img id="flackaburro" src="/images/flackaburro.png" />
+            </li>
+            <li data-thumb="slide3-thumb.jpg">
+              <img id="wp" src="/images/wp.png" />
+            </li>           
+            <li data-thumb="slide4-thumb.jpg">
+              <img src="slide4.jpg" />
+            </li>
+          </ul>
+        </div>
+<!--         <div class="container">
             <div class="jumbotron">
+                <div class="slides-holder">
+                <div id="slides"> -->
+<!--                     <img id="mobber" src="/images/mobber.png">
+                    <img id="wp" src="/images/wp.png">
+                    <img id="flackaburro" src="/images/flackaburro.png"> -->
+ <!--                </div>
+                </div>
 
-                <div id="slides">
-                    <img src="/images/wp.png">
-                    <img src="/images/mobber.png">
-                    <img src="http://placehold.it/940x528">
-                    <img src="http://placehold.it/940x528">
-                    <img src="http://placehold.it/940x528">
+                <div class="project-info">
+
                 </div>
 
             </div>
-
-       
+        </div> -->
+      
             <div class="row marketing">
                 <div class="about">
-                    <img class="circles ben" src="images/ben.png">
+                    <!-- <img class="circles ben" src="images/ben.png"> -->
                     <h4 name="linktobio">Who am I?</h4>
-                    <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
-                    lorem
+                    <p>It wasn't too long ago that I was aimlessly traveling around the country, hitting things with sticks, taking in the sights.......making music. I have pursued drumming since I was a wee lad. It's all I ever wanted to do until one fateful night comprised of good food, good music, and good friends. This was the night I was enlightened that there was a little code school down the road that I should give some serious thought to. It turns out that little code school does big things. 
+                    <br>
+                    <br>
+                    "The Iron Yard", a good friend tells me. It sounded like a place I was hoping to never see the inside walls. So, I researched. I applied. I was accepted. Upon successfully completing the most grueling code school that exists, these are now some of my favorite walls. Littered with dry-erase murals, surrounding some really great thinkers, and fostering an environment that demands high-level thought, I have transferred my creative passion in music to a new found passion that is web development.
+                    <br>
+                    <h4>What did I learn you ask?</h4>
+                    <p>
+
+                    </p>
                 </div>
             </div>
 
@@ -60,6 +90,7 @@
             </div>
 
         </div>
+
 
 
 
@@ -83,7 +114,7 @@
         <!-- build:js scripts/main.js -->
         <script src="scripts/main.js"></script>
         <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-        <script src="scripts/jquery.slides.min.js"></script>
+        <script src="woothemes-FlexSlider-ca347d4/jquery.flexslider-min.js"></script>
         <script src="scripts/jquery.localscroll-1.2.7-min.js" type="text/javascript"></script> 
         <script src="scripts/jquery.scrollTo-1.4.3.1-min.js" type="text/javascript"></script> 
 
