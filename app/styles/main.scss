@@ -16,7 +16,7 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 body {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #D8D8DA;
+    background-color: #fff;
 }
 
 
@@ -59,12 +59,14 @@ body {
 
 /* Custom page footer */
 .footer {
-    padding-top: 19px;
+    padding-top: 10px;
     color: #777;
     border-top: 1px solid #e5e5e5;
 
     p {
-        text-align: right;
+        float: right;
+        display: inline-block;
+        margin-top: 8px;
     }
 }
 
@@ -87,7 +89,7 @@ body {
 /* Supporting marketing content */
 .marketing {
     margin: 40px 0;
-    height: 500px;
+    height: 670px;
 }
 
 .marketing p + h4 {
@@ -133,11 +135,14 @@ body {
 }
 
 .face {
-    position: absolute;
+    float: right;
     border-radius: 30px;
-    left: 0px;
-    height: 160px;
-    width: 160px;
+    height: 225px;
+    width: 215px;
+    margin-left: 20px;
+    margin-bottom: 55px;
+    position: relative;
+    top: 25px;
 }
 
 
@@ -146,20 +151,24 @@ body {
 }
 
 .github {
-    display: block;
+    display: inline-block;
     width: 160px;
     margin: 12px auto;
+    font-size: 15px;
 }
 
 
 #mobber {
-    width: 690px;
-    height: 500px;
-    margin: 26px auto;
-    border: 2px solid #494949;
-    border-radius: 6px;
+    width: 590px;
+    height: 530px;
+    margin: 25px auto;
+    border: 1px solid #bebbbb;
+    border-radius: 4px;
 }
 
+#mobber-thumb{
+    border-left: none;
+}
 #flack-thumb {
     width: 231px;
     height: 231px;
@@ -169,15 +178,21 @@ body {
     width: 680px;
     height: 500px;
     margin: 26px auto;
-    border-radius: 6px;
-    border: 3px solid #494949;
+    border-radius: 4px;
+    /*border: 1px solid #494949;*/
 
+}
+#task {
+    width: 800px;
+    height: 400px;
+    margin: 26px auto;
+    border-radius: 6px;
 }
 
 #flackaburro {
     width: 800px;
     height: 500px;
-    margin-left: 80px;
+    margin: 0 auto;
     /*border: 2px solid grey;*/
     border-radius: 6px;
 }
@@ -190,7 +205,41 @@ body {
 }
 
 
+.icon {
+    display: inline-block;
+    height: 125px;
+    width: 125px;
+    margin-left: 30px;
+    border-radius: 50%;
+    border: 2px solid #BEBBBB;
+}
 
+#octocat-hub {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: -3px;
+    position: relative;
+    left: -10px;
+}
+
+#email {
+    display: inline-block;
+    height: 40px;
+    margin-right: 10px;
+}
+
+#phone {
+    margin-left: 10px;
+}
+
+.find-h4 {
+    margin-top: 5px !important;
+  }
+
+.ironyard{
+    /*display: inline;*/
+}
 /*
  * jQuery FlexSlider v2.2.0
  * http://www.woothemes.com/flexslider/
@@ -200,7 +249,7 @@ body {
  * http://www.gnu.org/licenses/gpl-2.0.html
  *
  * Contributing author: Tyler Smith (@mbmufffin)
- */
+ 
 
 
 /* Browser Resets
@@ -246,7 +295,7 @@ html[xmlns] .slides {display: block;}
 
 /* FlexSlider Default Theme
 *********************************/
-.flexslider { margin: 0 0 60px; background: #AFAFAF; border: 2px solid #494949; position: relative; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2); -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2); -o-box-shadow: 0 1px 4px rgba(0,0,0,.2); box-shadow: 0 1px 4px rgba(0,0,0,.2); zoom: 1; }
+.flexslider { margin: 0 0 60px; background: #EBEBEB; position: relative; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; -webkit-box-shadow: inset 0px 1px 6px #bebbbb; -moz-box-shadow: inset 0px 1px 6px #bebbbb; -o-box-shadow: 0 1px 4px rgba(0,0,0,.2); box-shadow: inset 0px 1px 6px #bebbbb; zoom: 1; }
 .flex-viewport { max-height: 610px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; -o-transition: all 1s ease; transition: all 1s ease; }
 .loading .flex-viewport { max-height: 300px; }
 .flexslider .slides { zoom: 1; }
@@ -277,9 +326,9 @@ html[xmlns] .slides {display: block;}
 .flex-control-paging li a:hover { background: #333; background: rgba(0,0,0,0.7); }
 .flex-control-paging li a.flex-active { background: #000; background: rgba(0,0,0,0.9); cursor: default; }
 
-.flex-control-thumbs {margin: 5px 0 0; position: static; overflow: hidden;}
+.flex-control-thumbs {margin: 5px 0 0; position: static; overflow: hidden; border-top: 1px solid #bebbbb; border-radius: 0px 0px 2px 2px;}
 .flex-control-thumbs li {width: 25%; float: left; margin: 0;}
-.flex-control-thumbs img {width: 100%; height: 190px; border-radius: 10px; display: block; opacity: .7; cursor: pointer;}
+.flex-control-thumbs img {width: 100%; height: 190px; border-left: 1px solid #bebbbb; border-bottom: 1px solid #bebbbb; display: block; opacity: .7; cursor: pointer;}
 .flex-control-thumbs img:hover {opacity: 1;}
 .flex-control-thumbs .flex-active {opacity: 1; cursor: default;}
 
