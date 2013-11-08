@@ -159,9 +159,10 @@ body {
 
 
 #mobber {
-    width: 590px;
-    height: 530px;
-    margin: 25px auto;
+    width: 480px;
+    height: 420px;
+    margin: 20px auto;
+    margin-bottom: 26px;
     border: 1px solid #bebbbb;
     border-radius: 4px;
 }
@@ -169,36 +170,32 @@ body {
 #mobber-thumb{
     border-left: none;
 }
-#flack-thumb {
-    width: 231px;
-    height: 231px;
-}
 
 #wp {
-    width: 680px;
-    height: 500px;
+    width: 600px;
+    height: 390px;
     margin: 26px auto;
     border-radius: 4px;
     /*border: 1px solid #494949;*/
 
 }
 #task {
-    width: 800px;
-    height: 400px;
-    margin: 26px auto;
+    width: 700px;
+    height: 350px;
+    margin: 30px auto;
     border-radius: 6px;
 }
 
 #flackaburro {
-    width: 800px;
-    height: 500px;
-    margin: 0 auto;
+    width: 700px;
+    height: 400px;
+    margin: 10px auto;
     /*border: 2px solid grey;*/
     border-radius: 6px;
 }
 
 .slides p {
-    margin: -20px auto;
+    margin: -13px auto;
     width: 560px;
     text-align: center;
     color: #504C4C;
@@ -210,6 +207,7 @@ body {
     height: 125px;
     width: 125px;
     margin-left: 30px;
+    margin-right: 25px;
     border-radius: 50%;
     border: 2px solid #BEBBBB;
 }
@@ -296,8 +294,8 @@ html[xmlns] .slides {display: block;}
 /* FlexSlider Default Theme
 *********************************/
 .flexslider { margin: 0 0 60px; background: #EBEBEB; position: relative; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; -webkit-box-shadow: inset 0px 1px 6px #bebbbb; -moz-box-shadow: inset 0px 1px 6px #bebbbb; -o-box-shadow: 0 1px 4px rgba(0,0,0,.2); box-shadow: inset 0px 1px 6px #bebbbb; zoom: 1; }
-.flex-viewport { max-height: 610px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; -o-transition: all 1s ease; transition: all 1s ease; }
-.loading .flex-viewport { max-height: 300px; }
+.flex-viewport { max-height: 650px; height: 500px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; -o-transition: all 1s ease; transition: all 1s ease; }
+.loading .flex-viewport { max-height: 350px; }
 .flexslider .slides { zoom: 1; }
 .carousel li { margin-right: 5px; }
 
@@ -328,7 +326,7 @@ html[xmlns] .slides {display: block;}
 
 .flex-control-thumbs {margin: 5px 0 0; position: static; overflow: hidden; border-top: 1px solid #bebbbb; border-radius: 0px 0px 2px 2px;}
 .flex-control-thumbs li {width: 25%; float: left; margin: 0;}
-.flex-control-thumbs img {width: 100%; height: 190px; border-left: 1px solid #bebbbb; border-bottom: 1px solid #bebbbb; display: block; opacity: .7; cursor: pointer;}
+.flex-control-thumbs img {width: 100%; height: 190px; background: #71A6DF; border-left: 1px solid #bebbbb; border-bottom: 1px solid #bebbbb; display: block; opacity: .7; cursor: pointer;}
 .flex-control-thumbs img:hover {opacity: 1;}
 .flex-control-thumbs .flex-active {opacity: 1; cursor: default;}
 
