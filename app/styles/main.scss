@@ -37,7 +37,7 @@ body {
     margin-bottom: 20px;
 
     @media (max-width: 600px) {
-        height: 120px;
+        height: 200px;
         margin-bottom: 5px;
     }
 
@@ -142,6 +142,19 @@ body {
 
     @media (max-width: 600px) {
         margin-top: 4px;
+        font-size: 10px;
+    }
+}
+
+#projects {
+    display: none;
+    margin: 0 auto;
+
+    @media (max-width: 600px) {
+        display: block;
+        width: 46px;
+        margin-bottom: 10px;
+        text-decoration: underline;
     }
 }
 
@@ -176,11 +189,10 @@ body {
     @media (max-width: 600px) {
         display: block;
         float: none;
-        border-radius: 2px;
-        height: 125px;
-        width: 70px;
-        margin-left: none;
-        margin-bottom: none;
+        border-radius: 4px;
+        height: 120px;
+        width: 90px;
+        margin: 5px auto;
         position: relative;
         top: 0px; 
     }
@@ -220,8 +232,8 @@ body {
 
     @media (max-width: 600px) {
         display: block;
-        width: 220px;
-        height: 230px;
+        width: 240px;
+        height: 280px;
         margin: 0px auto;
         border: 1px solid #bebbbb;
         border-radius: 2px;
@@ -233,9 +245,10 @@ body {
 
     @media (max-width: 600px) {
         display: block;
-        font-size: 10px;
-        width: 250px;
+        font-size: 8px;
+        width: 185px;
         margin: 5px auto;
+        text-align: center;
     }
 }
 
@@ -249,8 +262,9 @@ body {
     margin: 26px auto;
     border-radius: 4px;
     /*border: 1px solid #494949;*/
-
 }
+
+
 #task {
     width: 700px;
     height: 350px;
@@ -282,6 +296,37 @@ body {
     margin-right: 25px;
     border-radius: 50%;
     border: 2px solid #BEBBBB;
+
+    @media (max-width: 600px) {
+        display: none;
+    }
+}
+
+.icon-wrap {
+    display: none;
+
+    @media (max-width: 600px){
+        display: block !important;
+        margin: 0 auto !important;
+        height: 80px !important;
+        width: 300px !important;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+.icon-phone {
+    display: none !important;
+
+    @media (max-width: 600px) {
+        display: inline-block !important;
+        height: 60px !important;
+        width: 60px !important;
+        margin-left: 6px;
+        margin-right: 17px;
+        border-radius: 50%;
+        border: 2px solid #BEBBBB;
+    }
 }
 
 #octocat-hub {
@@ -305,7 +350,23 @@ body {
 
 .find-h3 {
     margin-top: 5px !important;
-  }
+
+    @media (max-width: 600px) {
+        display: none;
+    }
+}
+
+#find-h3-phone {
+    display: none;
+
+    @media (max-width: 600px) {
+        display: block;
+        font-size: 14px;
+        margin: 0 auto;
+        width: 132px;
+        margin-bottom: 6px;
+    }
+}
 
 .about p {
     line-height: 22px;
