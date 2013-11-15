@@ -83,10 +83,25 @@ h3 {
     color: #777;
     border-top: 1px solid #e5e5e5;
 
+    @media (max-width: 600px) {
+        padding-top: 4px;
+    }
+
     p {
         float: right;
         display: inline-block;
         margin-top: 8px;
+
+        @media (max-width: 600px) {
+            float: none;
+            display: block;
+            margin-top: 0px;
+            margin-bottom: 5px;
+            padding-bottom: 8px;
+            padding-top: 0px;
+            text-align: center;
+            font-size: 10px;
+        }
     }
 }
 
@@ -384,7 +399,7 @@ h3 {
         height: 80px !important;
         width: 300px !important;
         text-align: center;
-        padding: 10px;
+        padding: 0px;
     }
 }
 
@@ -396,7 +411,7 @@ h3 {
         height: 60px !important;
         width: 60px !important;
         margin-left: 6px;
-        margin-right: 17px;
+        margin-right: 0px;
         border-radius: 50%;
         border: 2px solid #BEBBBB;
     }
@@ -415,8 +430,34 @@ h3 {
     display: inline-block;
     height: 40px;
     margin-right: 10px;
+
+    @media (max-width: 600px) {
+        display: none;
+    }
 }
 
+#email-phone {
+    display: none;
+
+    @media (max-width: 600px) {
+        display: inline-block !important;
+        height: 60px !important;
+        width: 60px !important;
+        border-radius: 50%;
+        border: 2px solid #BEBBBB;
+        background: url("../images/email-phone.jpg") no-repeat;
+        background-size: 40px;
+        background-position: 8px 8px;
+    }
+
+}
+
+#gmail {
+    @media (max-width: 600px) {
+        display: none;
+    }
+}
+ 
 #phone {
     margin-left: 10px;
 }
@@ -462,6 +503,19 @@ h3 {
 #skills {
     @media (max-width: 600px) {
         padding-left: 14px;
+    }
+}
+
+#who {
+    @media (max-width: 600px) {
+        margin-top: 10px;
+    }
+}
+
+#on {
+
+    @media (max-width: 600px) {
+    font-size: 10px;
     }
 }
 /*
