@@ -19,7 +19,11 @@ body {
     background-color: #fff;
 }
 
-
+h3 {
+    @media (max-width: 600px) {
+        font-size: 20px;
+    }
+}
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
@@ -246,7 +250,7 @@ body {
     @media (max-width: 600px) {
         display: block;
         font-size: 8px;
-        width: 185px;
+        width: 220px;
         margin: 5px auto;
         text-align: center;
     }
@@ -271,7 +275,7 @@ body {
         display: block;
         width: 280px;
         height: 200px;
-        margin: 0px auto;
+        margin: -3px auto;
     }
 }
 
@@ -281,8 +285,38 @@ body {
     @media (max-width: 600px) {
         display: block;
         font-size: 8px;
-        width: 185px;
-        margin: 5px auto;
+        width: 230px;
+        margin: 0px auto;
+        text-align: center;  
+    }
+}
+
+#task {
+    width: 700px;
+    height: 350px;
+    margin: 30px auto;
+    border-radius: 6px;
+}
+
+#task-phone {
+    display: none;
+
+    @media (max-width: 600px) {
+        display: block;
+        width: 250px;
+        height: 125px;
+        margin: 10px auto;
+    } 
+}
+
+#task-phone-desc {
+    display: none;
+
+    @media (max-width: 600px) {
+        display: block;
+        font-size: 8px;
+        width: 220px;
+        margin: 0px auto;
         text-align: center;  
     }
 }
@@ -295,12 +329,27 @@ body {
     /*border: 1px solid #494949;*/
 }
 
+#wp-phone {
+    display: none;
 
-#task {
-    width: 700px;
-    height: 350px;
-    margin: 30px auto;
-    border-radius: 6px;
+    @media (max-width: 600px) {
+        display: block;
+        width: 250px;
+        height: 175px;
+        margin: 10px auto;
+    } 
+}
+
+#wp-phone-desc {
+    display: none;
+
+    @media (max-width: 600px) {
+        display: block;
+        font-size: 8px;
+        width: 220px;
+        margin: 0px auto;
+        text-align: center;  
+    }
 }
 
 
@@ -394,10 +443,26 @@ body {
 
 .about p {
     line-height: 22px;
+
+    @media (max-width: 600px) {
+        line-height: 18px;
+        font-size: 12px;
+    }
 }
 
 .about li {
     line-height: 22px;
+
+    @media (max-width: 600px) {
+        line-height: 16px;
+        font-size: 10px;
+    }
+}
+
+#skills {
+    @media (max-width: 600px) {
+        padding-left: 14px;
+    }
 }
 /*
  * jQuery FlexSlider v2.2.0
