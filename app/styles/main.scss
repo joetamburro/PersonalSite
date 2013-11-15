@@ -62,7 +62,7 @@ h3 {
         display: block;
 
         @media (max-width: 600px) {
-            font-size: 10px;
+            font-size: 12px;
             margin-top: 0px;
             margin-bottom: 0px;
         }
@@ -161,7 +161,7 @@ h3 {
 
     @media (max-width: 600px) {
         margin-top: 4px;
-        font-size: 10px;
+        font-size: 14px;
     }
 }
 
@@ -446,10 +446,55 @@ h3 {
         border-radius: 50%;
         border: 2px solid #BEBBBB;
         background: url("../images/email-phone.jpg") no-repeat;
+        background-size: 38px;
+        background-position: 9px 9px;
+    }
+
+}
+
+#github-phone {
+    display: none;
+
+    @media (max-width: 600px) {
+        display: inline-block !important;
+        height: 60px !important;
+        width: 60px !important;
+        border-radius: 50%;
+        border: 2px solid #BEBBBB;
+        background: url("../images/octocat.png") no-repeat;
         background-size: 40px;
         background-position: 8px 8px;
     }
+}
 
+#twitter-phone {
+    display: none;
+
+    @media (max-width: 600px) {
+        display: inline-block !important;
+        height: 60px !important;
+        width: 60px !important;
+        border-radius: 50%;
+        border: 2px solid #BEBBBB;
+        background: url("../images/twitter.png") no-repeat;
+        background-size: 40px;
+        background-position: 8px 8px;
+    }
+}
+
+#iy-phone {
+    display: none;
+
+    @media (max-width: 600px) {
+        display: inline-block !important;
+        height: 60px !important;
+        width: 60px !important;
+        border-radius: 50%;
+        border: 2px solid #BEBBBB;
+        background: url("../images/ironyard.png") no-repeat;
+        background-size: 40px;
+        background-position: 8px 8px;
+    }
 }
 
 #gmail {
