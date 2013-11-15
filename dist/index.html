@@ -10,13 +10,14 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link rel="stylesheet" href="styles/6e49e984.main.css">
+        <link rel="stylesheet" href="styles/73e65931.main.css">
         <script src="scripts/vendor/d7100892.modernizr.js"></script>
-    <body>
         <!--[if lt IE 10]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+    </head>
 
+    <body>
 
         <div class="container">
             <div class="header">
@@ -24,10 +25,37 @@
                 <h1>Hi, I am Joe Tamburro.</h1>
                 <h4>Front-end Engineer. App Developer. Beard Wearer.</h4>
                 <a href="#linktobio" id="more">Learn more about me.</a><br>
+                <img class="circles face img-responsive" id="face-phone" alt="Responsive image" src="images/5b04b604.facey.jpg">
 <!--                 <a href="https://github.com/joetamburro"><button type="button" class="btn btn-primary btn-lg github"><img id="octocat-hub"src="images/e5ad04dd.octocat.png">View on GitHub</button></a>  -->
 
             </div>
+
+<!-- ********** For phone sizes ************** -->
+
+            <h3 class="find-h3" id="find-h3-phone">Find me on the web</h3>
+                <div class="icon-wrap">
+                    <a href="mailto:joetamburro38@gmail.com"><div id="email-phone"></div></a>
+                    <a href="https://github.com/joetamburro"><img class="icon-phone" src="images/e5ad04dd.octocat.png"></a>
+                    <a href="https://twitter.com/JoeyTamburro"><img class="icon-phone" src="images/82e86858.twitter.png"></a>
+                    <a href="http://www.theironyard.com"><img class="icon-phone" src="images/91e0c26b.ironyard.png"></a>
+                </div>
+
    
+            <h6 id="projects">Projects</h6>
+            <img id="mobber-phone" src="images/ba965a80.mobber-original.png">
+            <p id="mobber-phone-desc">My first crack at coding. After our second lecture, I was handed an image and told to recreate it in the browser for homework. Using HTML5/CSS3, this was the outcome.</p>
+
+            <img id="flackaburro-phone" src="images/0faa6dd5.flackaburro.png">
+            <p id="flackaburro-phone-desc">We quickly jumped right into GitHub and JavaScript. This app was the first collaborative project using GitHub where I learned how to develop on a team. It is a functioning Point-of-Sale app utilizing JavaScript libraries such as jQuery and Underscore.</p>
+
+            <img id="task-phone" src="images/4b072d68.task.png">
+            <p id="task-phone-desc">Did you remember if you walked the dog or not? Fantaskit is a quick app I built that was an introduction into persisting data using Parse. This was also a great lesson in further developing my JavaScript skills.</p>
+
+            <img id="wp-phone" src="images/e3eedd27.wp.png">
+            <p id="wp-phone-desc">The end of my Iron Yard journey culminated in a three week final project applying all I had learned, including API's, JavaScript libraries, plug-ins, and Backbone.js, to create a user-friendly web-based audio player using Parse as the back-end.</p>
+
+<!-- ********** End for phone sizes ************** -->
+
    <!-- Place somewhere in the <body> of your page -->
         <div class="flexslider">
           <ul class="slides">
@@ -56,7 +84,7 @@
                 <div class="about">
                 <img class="circles face img-responsive" alt="Responsive image" src="images/5b04b604.facey.jpg">
                     <!-- <img class="circles ben" src="images/8e0f8044.ben.png"> -->
-                    <h3 name="linktobio">Who am I?</h3>
+                    <h3 id="who" name="linktobio">Who am I?</h3>
                     <p>It wasn't too long ago that I was aimlessly traveling around the country, hitting things with sticks, taking in the sights.......making music. I have pursued drumming since I was a wee lad. It's all I ever wanted to do until one fateful night comprised of good food, good music, and good friends. This was the night I was enlightened that there was a little code school down the road that I should give some serious thought to. It turns out that little code school does big things. 
                     <br>
                     <br>
@@ -66,7 +94,7 @@
                     </p><p>
                        How to think like a programmer and learn how to learn as I further develop my skills. I love challenging myself and solving complex problems. My life is about creating things that give an end-user great satisfaction whether, it is playing a concert or building an intricate application. I have learned that road-blocks in programming are more like speed bumps. By taking a step back and applying logical thought to a problem the road then becomes nivagable. I have learned a lot in a short time, including such things as:
                        <br>
-                       <ul>
+                       <ul id="skills">
                         <li><strong>Git and GitHub</strong> - version control skills and team workflows</li>
                         <li><strong>HTML5/CSS3</strong> - responsive design, layouts, animations, typography, etc.</li>
                         <li><strong>JavaScript</strong> - unit testing via Mocha and Jasmine, types, functions, objects, scope, closures, constructors, prototypes, JSON, etc.</li>
@@ -75,7 +103,7 @@
                         <li><strong>Backbone.js</strong> - understanding of MVC's, Handling JSON payloads, data persistence, and smart view management</li>
                         <li><strong>Parse</strong> - as a backend, along with wrangling of API's</li>
                         <li><strong>Yeoman</strong> - front-end package managers, tools, asset loaders, and generators</li>
-                        ......and it goes on and on......
+                        <span id="on">....and it goes on and on....</span>
                        </ul>
                     </p>
                     <h3 class="find-h3">Find me on the web:
@@ -86,7 +114,7 @@
 
                 </div>
                 <div class="footer">
-                    <a href="mailto:joetamburro38@gmail.com"><img id="email" src="images/cd0f7534.email.png">joetamburro38@gmail.com</a>
+                    <a href="mailto:joetamburro38@gmail.com"><img id="email" src="images/cd0f7534.email.png"><span id="gmail">joetamburro38@gmail.com</span></a>
                     <p>Inquisitively created by <strong>Joe Tamburro</strong></p>
                 </div>
             </div>
@@ -114,4 +142,4 @@
 
         <script src="scripts/20bdd8fe.plugins.js"></script>
 </body>
-</head></html>
+</html>
